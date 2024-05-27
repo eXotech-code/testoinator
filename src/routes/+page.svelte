@@ -29,7 +29,7 @@
 	};
 
 	const submitAnswer = () => {
-		if (current.correct.every((val: number) => selectedAnswers[val])) {
+		if (selectedAnswers.every((val, i) => !val || current.correct.includes(i))) {
 			if (left.length === 0) {
 				goto('/win');
 				return;
@@ -70,7 +70,7 @@
 		<button class="next" on:click={submitAnswer}>{left.length === 0 ? 'Koniec' : 'Dalej'}</button>
 	</div>
 	<div class="counter-box">
-		<p>{questions.length - left.length + 1}/{questions.length}</p>
+		<p>{questions.length - left.length}/{questions.length}</p>
 	</div>
 </main>
 <Footer />
