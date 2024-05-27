@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { goto, afterNavigate } from '$app/navigation';
+	import { goto } from '$app/navigation';
 
 	import questions from '$lib/questions.json';
 
@@ -45,11 +45,18 @@
 		if (current.correct.length === 1) selectedAnswers = selectedAnswers.map((_, j) => i === j);
 	};
 
-	let [current, left] = chooseQuestion(JSON.parse(JSON.stringify(questions)));
+	const getInitial = (questions: Question[]): Question[] => {
+		let copy = JSON.parse(JSON.stringify(questions));
+		let initial = [];
+		for (let i = 0; i < 10; i++) {
+			initial.push(copy.splice(randomInt(copy.length - 1), 1)[0]);
+		}
+		return initial;
+	};
+
+	let [current, left] = chooseQuestion(getInitial(questions));
 	let selectedAnswers: boolean[] = Array(4).fill(false);
 	let counter = 1;
-
-	afterNavigate(() => (left = questions));
 </script>
 
 <main>
@@ -71,7 +78,7 @@
 		<button class="next" on:click={submitAnswer}>{left.length === 0 ? 'Koniec' : 'Dalej'}</button>
 	</div>
 	<div class="counter-box">
-		<p>{counter}/{questions.length}</p>
+		<p>{counter}/{10}</p>
 	</div>
 </main>
 
