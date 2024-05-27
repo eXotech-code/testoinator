@@ -195,7 +195,7 @@
 		"answers": ["Dodawanie genów", "Zamiana genów", "In vitro", "Ex vivo"]
 	},
 	{
-		"question": "Zaznacz prawidłowe zdania o komórkach nowotworowych",
+		"question": "Zaznacz prawidłowe zdania o komórkach nowotworowych.",
 		"correct": [0, 1],
 		"answers": [
 			"Uciekają od apoptozy",
@@ -205,7 +205,7 @@
 		]
 	},
 	{
-		"question": "Zaznacz zdania prawdziwe",
+		"question": "Zaznacz zdania prawdziwe.",
 		"correct": [0, 1, 2],
 		"answers": [
 			"P53 inaczej nazywany jest fosfoproteiną jądrową",
@@ -220,7 +220,7 @@
 		"answers": ["EGF", "NGF", "PDGF", "IGF-1"]
 	},
 	{
-		"question": "Zaznacz prawidłowe zdania o retinoblastomie",
+		"question": "Zaznacz prawidłowe zdania o retinoblastomie.",
 		"correct": [0, 1],
 		"answers": [
 			"Spowodowana jest mutacją w genie RB1",
@@ -230,7 +230,7 @@
 		]
 	},
 	{
-		"question": "Czerwona, nieregularna plama z tyłu szyi może być objawem",
+		"question": "Czerwona, nieregularna plama z tyłu szyi może być objawem:",
 		"correct": [0],
 		"answers": ["Naczyniaka płaskiego", "Naczyniaka krwionośnego", "Nerwiakowłókniaka", "Czerniaka"]
 	},
@@ -245,7 +245,7 @@
 		]
 	},
 	{
-		"question": "Analiza DNA pozwala rozpoznać zaburzenia",
+		"question": "Analiza DNA pozwala rozpoznać zaburzenia:",
 		"correct": [0, 1, 2],
 		"answers": [
 			"Autosomalne dominujące",
@@ -255,8 +255,33 @@
 		]
 	},
 	{
-		"question": "Nefroblastoma to inaczej",
+		"question": "Nefroblastoma to inaczej:",
 		"correct": [0, 1],
 		"answers": ["Guz Wilmsa", "Nowotwór złośliwy nerek", "Czerniak", "Nerwiakowłókniakowość"]
+	},
+	{
+		"question": "Zaznacz zdania poprawne odnośnie IGF-1.",
+		"correct": [0, 1],
+		"answers": [
+			"Insulinopodobny czynnik wzrostu",
+			"Stymuluje przejście komórki z G1 do S",
+			"Stymuluje przejście komórki z G0 do G1",
+			"To naskórkowy czynnik wzrostu"
+		]
+	},
+	{
+		"question": "Wyróżniamy nowotwory:",
+		"correct": [0, 1],
+		"answers": ["Łagodne", "Pochodzenia nabłonkowego", "Antyonkogeny", "Fibroblastów typu PDGF"]
+	},
+	{
+		"question": "Terapia genowa w mukowiscydozie polega na:",
+		"correct": [0],
+		"answers": [
+			"Skorygowanie defektu w komórkach nabłonkowych oskrzeli",
+			"Uzyskanie nadekspresji czynnika neurotroficznego CNTF",
+			"Zatrzymanie procesu transkrypcji odpowiedzialnego onkogenu",
+			"Zastosowanie genów samobójczych"
+		]
 	}
 ]
