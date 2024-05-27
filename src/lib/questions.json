@@ -1,5 +1,40 @@
 [
 	{
+		"question": "Za pomocą jakich metod można przeprowadzić rozpoznanie chorób dotyczących anatomii serca?",
+		"correct": [0, 1],
+		"answers": [
+			"USG",
+			"Ultrasonografia dopplerowska",
+			"Mammografia komputerowa",
+			"Mammografia spektralna"
+		]
+	},
+	{
+		"question": "Który z poniższych objawów dotyczy gestrokardii?",
+		"correct": [0],
+		"answers": [
+			"Cewa serca ulega zagięciu na lewą stronę",
+			"Serce leży poza klatką piersiową",
+			"Przetrwały otwór owalny",
+			"Wady błoniastej części przegrody komorowej"
+		]
+	},
+	{
+		"question": "Jakie objawy cechują zwężenie aorty?",
+		"correct": [0, 1],
+		"answers": [
+			"Wzmożona akcja serca",
+			"Przerost lewej komory",
+			"Przerost prawej komory",
+			"Rozpad czerwonych krwinek"
+		]
+	},
+	{
+		"question": "Jak często występują wady wrodzone serca i wielkich naczyń?",
+		"correct": [0],
+		"answers": ["8/1000 urodzeń", "1/2000 urodzeń", "2/4000 urodzeń", "7/10000 urodzeń"]
+	},
+	{
 		"question": "Które z tych stwierdzeń odnoszą się do atrezji aorty (zwężenia cieśni aorty)?",
 		"correct": [0, 1, 2],
 		"answers": [
