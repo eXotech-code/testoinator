@@ -48,6 +48,11 @@
 
 <main>
 	<h2>{current.question}</h2>
+	{#if current.correct.length === 1}
+		<p>Jest jedna poprawna odpowiedź.</p>
+	{:else}
+		<p>Są {current.correct.length} poprawne odpowiedzi.</p>
+	{/if}
 	<div>
 		{#each current.answers as answer, i}
 			<button
@@ -62,11 +67,26 @@
 </main>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+	:global(body) {
+		font-family: 'Roboto', sans-serif;
+	}
+
 	main {
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
 		align-items: center;
+		justify-content: center;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	h2 {
+		width: 80vw;
 	}
 
 	div {
