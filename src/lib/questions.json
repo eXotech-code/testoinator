@@ -73,8 +73,8 @@
 		"question": "Które z tych zdań charakteryzują gen BRCA1?",
 		"correct": [0, 1],
 		"answers": [
-			"Mutacja w obrębie tego genu może wywołać oponiaka",
 			"Koduje białko biorące udział w kontroli cyklu komórkowego oraz szlaku naprawy DNA",
+			"U nosicielek tej mutacji występuje 55-80% ryzyka zachorowania na raka piersi",
 			"Kontroluje wejście komórki w fazę S",
 			"Postacią aktywną jest tetramer"
 		]
