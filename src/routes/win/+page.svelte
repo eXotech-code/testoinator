@@ -1,6 +1,6 @@
 <main>
 	<h1>You won you fucken piece of fish</h1>
-	<a href="/">Spróbuj jeszcze raz</a>
+	<a href="/">Mamo, mogę jeszcze raz?</a>
 </main>
 
 <style>
