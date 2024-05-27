@@ -10,7 +10,7 @@
 		]
 	},
 	{
-		"question": "Który z poniższych objawów dotyczy gestrokardii?",
+		"question": "Który z poniższych objawów dotyczy dekstrokardii?",
 		"correct": [0],
 		"answers": [
 			"Cewa serca ulega zagięciu na lewą stronę",
@@ -48,5 +48,45 @@
 		"question": "Które z wymienionych zaburzeń powłoki wspólnej jest dziedziczonych autosomalnie dominująco?",
 		"correct": [0, 1],
 		"answers": ["Rybia łuska blaszkowata", "Naczyniak płaski", "Rybia łuska płodowa", "Bielactwo"]
+	},
+	{
+		"question": "Mutacja którego z genów supresorowych może spowodować wystąpienie Zespołu Li-Fraumeni?",
+		"correct": [0],
+		"answers": ["p53", "Rb1", "WT1", "BRCA1 i BRCA2"]
+	},
+	{
+		"question": "Które z poniższych stwierdzeń odnosi się do genu p53?",
+		"correct": [0],
+		"answers": [
+			"Funkcjonuje jako regulator cyklu komórkowego",
+			"Do zainicjowania nowotwory potrzebna jest utrata obu alleli",
+			"Locus tego genu znajduje się na chromosomie 17",
+			"Mutacje tego genu zaburzają mechanizmy naprawcze DNA"
+		]
+	},
+	{
+		"question": "Które z tych zdań charakteryzują gen BRCA1?",
+		"correct": [0, 1],
+		"answers": [
+			"Mutacja w obrębie tego genu może wywołać oponiaka",
+			"Koduje białko biorące udział w kontroli cyklu komórkowego oraz szlaku naprawy DNA",
+			"Kontroluje wejście komórki w fazę S",
+			"Postacią aktywną jest tetramer"
+		]
+	},
+	{
+		"question": "W jakich typach genów najczęściej powstają mutacje nowotworowe?",
+		"correct": [0, 1, 2],
+		"answers": [
+			"W protoonkogenach",
+			"W genach supresji nowotworu",
+			"W genach naprawy DNA",
+			"W genach immunoglobulin"
+		]
+	},
+	{
+		"question": "Mutacje w których z wymienionych genów odpowiadają za występowanie rodzinnej polipowatości jelita grubego?",
+		"correct": [0],
+		"answers": ["NF1", "NF2", "p53", "BRCA2"]
 	}
 ]
