@@ -193,5 +193,70 @@
 		"question": "Zaznacz prawidłowe taktyki terapii genowej.",
 		"correct": [0, 1],
 		"answers": ["Dodawanie genów", "Zamiana genów", "In vitro", "Ex vivo"]
+	},
+	{
+		"question": "Zaznacz prawidłowe zdania o komórkach nowotworowych",
+		"correct": [0, 1],
+		"answers": [
+			"Uciekają od apoptozy",
+			"Nieograniczony potencjał replikacyjny",
+			"Kontrolują podział komórki",
+			"Reagują na zewnętrzne sygnały dotyczące wzrostu"
+		]
+	},
+	{
+		"question": "Zaznacz zdania prawdziwe",
+		"correct": [0, 1, 2],
+		"answers": [
+			"P53 inaczej nazywany jest fosfoproteiną jądrową",
+			"Mutacje w obrębie BRCA1 i BRCA2 powodują więcej niż jeden nowotwór",
+			"Model dwóch uderzeń dotyczy zarówno guza Wilmsa, jak i retinoblastomy",
+			"P53 kontroluje przejście komórki z fazy G0 do G1"
+		]
+	},
+	{
+		"question": "Które czynniki wzrostu regulują przejście z fazy G0 do G1?",
+		"correct": [0, 1, 2],
+		"answers": ["EGF", "NGF", "PDGF", "IGF-1"]
+	},
+	{
+		"question": "Zaznacz prawidłowe zdania o retinoblastomie",
+		"correct": [0, 1],
+		"answers": [
+			"Spowodowana jest mutacją w genie RB1",
+			"Może skutkować siatkówczakiem",
+			"Rozwija się wraz z dojrzewaniem człowieka",
+			"Skutkuje brakiem barwnika w siatkówce"
+		]
+	},
+	{
+		"question": "Czerwona, nieregularna plama z tyłu szyi może być objawem",
+		"correct": [0],
+		"answers": ["Naczyniaka płaskiego", "Naczyniaka krwionośnego", "Nerwiakowłókniaka", "Czerniaka"]
+	},
+	{
+		"question": "Które z wymienionych umożliwiają badanie tkanek płodu?",
+		"correct": [0, 1],
+		"answers": [
+			"Amniopunkcja",
+			"Kordocenteza",
+			"Fetoskopia",
+			"Ocena poziomu alfa fetoproteiny u matki"
+		]
+	},
+	{
+		"question": "Analiza DNA pozwala rozpoznać zaburzenia",
+		"correct": [0, 1, 2],
+		"answers": [
+			"Autosomalne dominujące",
+			"Autosomalne recesywne",
+			"Sprzężone z X",
+			"Dotyczące abberacji chromosomowych"
+		]
+	},
+	{
+		"question": "Nefroblastoma to inaczej",
+		"correct": [0, 1],
+		"answers": ["Guz Wilmsa", "Nowotwór złośliwy nerek", "Czerniak", "Nerwiakowłókniakowość"]
 	}
 ]
