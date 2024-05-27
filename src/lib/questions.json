@@ -46,8 +46,13 @@
 	},
 	{
 		"question": "Które z wymienionych zaburzeń powłoki wspólnej jest dziedziczonych autosomalnie dominująco?",
-		"correct": [0, 1],
-		"answers": ["Rybia łuska blaszkowata", "Naczyniak płaski", "Rybia łuska płodowa", "Bielactwo"]
+		"correct": [0],
+		"answers": [
+			"Bielactwo częściowe",
+			"Rybia łuska blaszkowata",
+			"Naczyniak płaski",
+			"Bielactwo całkowite"
+		]
 	},
 	{
 		"question": "Mutacja którego z genów supresorowych może spowodować wystąpienie Zespołu Li-Fraumeni?",
@@ -88,5 +93,20 @@
 		"question": "Mutacje w których z wymienionych genów odpowiadają za występowanie rodzinnej polipowatości jelita grubego?",
 		"correct": [0],
 		"answers": ["NF1", "NF2", "p53", "BRCA2"]
+	},
+	{
+		"question": "Które z poniższych stwierdzeń dotyczą nerwiakowłókniakowatości?",
+		"correct": [0, 1],
+		"answers": [
+			"Występują 2 typy",
+			"Dziedziczna autosomalnie dominująco",
+			"Dziediczna autosomalnie recesywnie",
+			"Wywoływana przez mutacje genu p53"
+		]
+	},
+	{
+		"question": "Jaka część przypadków przypadków nerwiakowłókniakowatości typu 1 to nowe mutacje?",
+		"correct": [0],
+		"answers": ["50%", "55%", "43%", "30%"]
 	}
 ]
