@@ -79,14 +79,11 @@
 		gap: 1rem;
 		align-items: center;
 		justify-content: center;
+		padding: 0 2rem;
 	}
 
 	p {
 		font-size: 14px;
-	}
-
-	h2 {
-		width: 80vw;
 	}
 
 	div {
