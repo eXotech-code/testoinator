@@ -121,7 +121,7 @@
 	},
 	{
 		"question": "Zaznacz wady dziedziczone autosomalnie recesywnie:",
-		"correct": [0, 1],
+		"correct": [0, 1, 2],
 		"answers": [
 			"Bielactwo całkowite",
 			"Rybia łuska płodowa",
