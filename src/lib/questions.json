@@ -1,0 +1,17 @@
+[
+	{
+		"question": "Które z tych stwierdzeń odnoszą się do atrezji aorty (zwężenia cieśni aorty)?",
+		"correct": [0, 1, 2],
+		"answers": [
+			"Większość zwężeń zachodzi dystalnie od odejścia lewej tętnicy podobojczykowej",
+			"Choroba jest wywoływana przez czynniki środowiskowe",
+			"Choroba jest wywoływana przez czynniki genetyczne",
+			"Objawami są między innymi szmery serca"
+		]
+	},
+	{
+		"question": "Które z wymienionych zaburzeń powłoki wspólnej jest dziedziczonych autosomalnie dominująco?",
+		"correct": [0, 1],
+		"answers": ["Rybia łuska blaszkowata", "Naczyniak płaski", "Rybia łuska płodowa", "Bielactwo"]
+	}
+]
