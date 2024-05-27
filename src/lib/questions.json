@@ -158,5 +158,40 @@
 		"question": "Brak barwnika w skórze, włosach i siatkówce to cecha:",
 		"correct": [0],
 		"answers": ["Bielactwa całkowitego", "Bielactwa częściowego", "Retinoblastomy", "Guza Wilmsa"]
+	},
+	{
+		"question": "Co skutkuje całkowitym brakiem kończyny?",
+		"correct": [0],
+		"answers": ["Amelia", "Astrogryptoza", "Syndaktylia", "Meromelia"]
+	},
+	{
+		"question": "Którego zespołu objawem jest kraniostenoza szwu wieńcowego?",
+		"correct": [0],
+		"answers": ["Pfeiffera", "Jacksona-Weissa", "Crouzona", "Aperta"]
+	},
+	{
+		"question": "Zaznacz zdania prawdziwe dotyczące akranii.",
+		"correct": [0, 1],
+		"answers": [
+			"Brak sklepienia czaszki",
+			"Wiąże się z bezmózgowiem",
+			"Przedwczesne kostnienie szwów czaszkowych",
+			"Dziedziczenie autosomalne dominujące"
+		]
+	},
+	{
+		"question": "Co skutkuje sercem poza klatką piersiową?",
+		"correct": [0],
+		"answers": [
+			"Ektiopia",
+			"Dekstrokardia",
+			"Wady przegrody międzyprzedsionkowej",
+			"Wady przegrody międzykomorowej"
+		]
+	},
+	{
+		"question": "Zaznacz prawidłowe taktyki terapii genowej.",
+		"correct": [0, 1],
+		"answers": ["Dodawanie genów", "Zamiana genów", "In vitro", "Ex vivo"]
 	}
 ]
