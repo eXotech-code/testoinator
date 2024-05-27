@@ -22,14 +22,19 @@
 		return current;
 	};
 
+	const chooseQuestion = (left: Question[]): [Question, Question[]] => {
+		const choice = randomInt(left.length - 1);
+		return [left[choice], left.toSpliced(choice, 1)];
+	};
+
 	const submitAnswer = () => {
-		if (current.correct.every((val) => selectedAnswers[val])) {
+		if (current.correct.every((val: number) => selectedAnswers[val])) {
 			if (left.length === 0) {
 				goto('/win');
 				return;
 			}
 			selectedAnswers = Array(4).fill(false);
-			current = left.splice(randomInt(left.length - 1), 1)[0];
+			[current, left] = chooseQuestion(left);
 			current = shuffle(current);
 		}
 	};
@@ -39,8 +44,7 @@
 		if (current.correct.length === 1) selectedAnswers = selectedAnswers.map((_, j) => i === j);
 	};
 
-	let left = questions;
-	let current = left.splice(randomInt(questions.length - 1), 1)[0];
+	let [current, left] = chooseQuestion(questions);
 	let selectedAnswers: boolean[] = Array(4).fill(false);
 
 	afterNavigate(() => (left = questions));
@@ -53,7 +57,7 @@
 	{:else}
 		<p>Są {current.correct.length} poprawne odpowiedzi.</p>
 	{/if}
-	<div>
+	<div class="answer-box">
 		{#each current.answers as answer, i}
 			<button
 				class={`selectable ${selectedAnswers[i] ? 'selected' : ''}`}
@@ -63,6 +67,9 @@
 			</button>
 		{/each}
 		<button class="next" on:click={submitAnswer}>{left.length === 0 ? 'Koniec' : 'Dalej'}</button>
+	</div>
+	<div class="counter-box">
+		<p>{questions.length - left.length + 1}/{questions.length}</p>
 	</div>
 </main>
 
@@ -86,7 +93,7 @@
 		font-size: 14px;
 	}
 
-	div {
+	.answer-box {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -101,6 +108,7 @@
 		padding: 0.25rem;
 		width: 100%;
 	}
+
 	.selectable {
 		background: #fff;
 	}
@@ -109,5 +117,10 @@
 	.next {
 		background: #000;
 		color: #fff;
+	}
+
+	.counter-box {
+		display: flex;
+		justify-content: flex-end;
 	}
 </style>
