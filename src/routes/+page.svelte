@@ -37,6 +37,7 @@
 			selectedAnswers = Array(4).fill(false);
 			[current, left] = chooseQuestion(left);
 			current = shuffle(current);
+			counter++;
 		}
 	};
 
@@ -45,8 +46,9 @@
 		if (current.correct.length === 1) selectedAnswers = selectedAnswers.map((_, j) => i === j);
 	};
 
-	let [current, left] = chooseQuestion(questions);
+	let [current, left] = chooseQuestion(JSON.parse(JSON.stringify(questions)));
 	let selectedAnswers: boolean[] = Array(4).fill(false);
+	let counter = 1;
 
 	afterNavigate(() => (left = questions));
 </script>
@@ -70,7 +72,7 @@
 		<button class="next" on:click={submitAnswer}>{left.length === 0 ? 'Koniec' : 'Dalej'}</button>
 	</div>
 	<div class="counter-box">
-		<p>{questions.length - left.length}/{questions.length}</p>
+		<p>{counter}/{questions.length}</p>
 	</div>
 </main>
 <Footer />
