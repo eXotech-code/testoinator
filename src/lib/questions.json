@@ -108,5 +108,55 @@
 		"question": "Jaka część przypadków przypadków nerwiakowłókniakowatości typu 1 to nowe mutacje?",
 		"correct": [0],
 		"answers": ["50%", "55%", "43%", "30%"]
+	},
+	{
+		"question": "Choroba wywołana nadmierną keratynizacją to:",
+		"correct": [0],
+		"answers": ["Rybia łuska", "Bielactwo", "Dekstrokardia", "Zespół Klippla-Feila"]
+	},
+	{
+		"question": "Do zaburzeń w rozwoju powłoki wspólnej nie należy:",
+		"correct": [0],
+		"answers": ["Zespół Nagera", "Bielactwo", "Nieprawidłowy kształt zębów", "Naczyniaki skóry"]
+	},
+	{
+		"question": "Zaznacz wady dziedziczone autosomalnie recesywnie:",
+		"correct": [0, 1],
+		"answers": [
+			"Bielactwo całkowite",
+			"Rybia łuska płodowa",
+			"Rybia łuska blaszkowata",
+			"Bielactwo częściowe"
+		]
+	},
+	{
+		"question": "Zaznacz wady dziedziczone autosomalnie dominująco:",
+		"correct": [0, 1, 2],
+		"answers": [
+			"Połowiczny rozwój zębiny",
+			"Zespół Aperta",
+			"Hipocholesteromia rodzinna",
+			"Rybia łuska płodowa"
+		]
+	},
+	{
+		"question": "Zaznacz wady dziedziczone autosomalnie dominująco:",
+		"correct": [0, 1, 2],
+		"answers": [
+			"Zespół Nagera",
+			"Zespół Li-Fraumeni (LFS)",
+			"Nerwakowłókniakowatość",
+			"Bielactwo całkowite"
+		]
+	},
+	{
+		"question": "Zaznacz wady dziedziczone autosomalnie dominująco:",
+		"correct": [0, 1, 2],
+		"answers": ["Guz Wilmsa", "Czerniak", "Retinoblastoma", "Bielactwo całkowite"]
+	},
+	{
+		"question": "Brak barwnika w skórze, włosach i siatkówce to cecha:",
+		"correct": [0],
+		"answers": ["Bielactwa całkowitego", "Bielactwa częściowego", "Retinoblastomy", "Guza Wilmsa"]
 	}
 ]
