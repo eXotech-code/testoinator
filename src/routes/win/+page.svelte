@@ -1,6 +1,11 @@
+<script>
+	import questions from '$lib/questions.json';
+</script>
+
 <main>
 	<h1>You won you fucken piece of fish</h1>
 	<a href="/">Mamo, mogę jeszcze raz?</a>
+	<p>Obecnie pula pytań wynosi {questions.length}, a zestawy są dobierane losowo.</p>
 </main>
 
 <style>

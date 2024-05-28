@@ -105,7 +105,7 @@
 		]
 	},
 	{
-		"question": "Jaka część przypadków przypadków nerwiakowłókniakowatości typu 1 to nowe mutacje?",
+		"question": "Jaka część przypadków nerwiakowłókniakowatości typu 1 to nowe mutacje?",
 		"correct": [0],
 		"answers": ["50%", "55%", "43%", "30%"]
 	},
@@ -208,7 +208,7 @@
 		"question": "Zaznacz zdania prawdziwe.",
 		"correct": [0, 1, 2],
 		"answers": [
-			"P53 inaczej nazywany jest fosfoproteiną jądrową",
+			"P53 jest fosfoproteiną jądrową",
 			"Mutacje w obrębie BRCA1 i BRCA2 powodują więcej niż jeden nowotwór",
 			"Model dwóch uderzeń dotyczy zarówno guza Wilmsa, jak i retinoblastomy",
 			"P53 kontroluje przejście komórki z fazy G0 do G1"
@@ -282,6 +282,91 @@
 			"Uzyskanie nadekspresji czynnika neurotroficznego CNTF",
 			"Zatrzymanie procesu transkrypcji odpowiedzialnego onkogenu",
 			"Zastosowanie genów samobójczych"
+		]
+	},
+	{
+		"question": "Zaznacz cechy ginekomastii.",
+		"correct": [0, 1],
+		"answers": [
+			"Zazwyczaj ustępuje w ciągu kilku tygodni",
+			"Powodowana przez stymulację żeńskimi hormonami płciowymi przed urodzeniem",
+			"Choroba długoterminowa",
+			"Powodowana przez uszkodzenia ameloblastów"
+		]
+	},
+	{
+		"question": "Z ilu kręgów składa się kręgosłup?",
+		"correct": [0],
+		"answers": ["33-34", "32-33", "69", "34-35"]
+	},
+	{
+		"question": "Które z poniższych objawów dotyczą zespołu Klippla-Feila?",
+		"correct": [0, 1, 2],
+		"answers": [
+			"Krótka szyja",
+			"Małe korzenie nerwów szyjnych i małe otwory międzykręgowe",
+			"Przeważnie mniejsza liczba trzonów szyjnych",
+			"Wiąże się z bezmózgowiem"
+		]
+	},
+	{
+		"question": "Czym są dysrafie?",
+		"correct": [0, 1],
+		"answers": [
+			"Zespołem wrodzonych wad układu nerwowego",
+			"Anomaliami dotyczącymi kręgów szyjnych",
+			"Rzadkim nowotworem złośliwym",
+			"Zespołem chorób autoimmunologicznych"
+		]
+	},
+	{
+		"question": "Które z tych objawów dotyczą zespoły Jacksona-Weissa",
+		"correct": [0, 1],
+		"answers": [
+			"Kraniostenoza często połączona ze stożkogłowiem",
+			"Hipoplazja środkowej części twarzy",
+			"Liczne anomalie dotyczące kręgów szyjnych",
+			"Krótkie i łukowate kończyny"
+		]
+	},
+	{
+		"question": "Zaznacz stwierdzenia dotyczące mukowiscytozy?",
+		"correct": [0, 1],
+		"answers": [
+			"Inaczej nazywana torbielowatym zwłóknieniem trzustki",
+			"Wywoływana przez mutację genu CTFR",
+			"Jest chorobą degeneratywną ośrodkowego układu nerwowego",
+			"Charakteryzuje ją brak części tkanki w jednym z elementów oka"
+		]
+	},
+	{
+		"question": "Które z wymienionych metod to metody biologiczne wprowadzania genów do komórek?",
+		"correct": [0, 1],
+		"answers": [
+			"Wektory z wykorzystaniem wirusów RNA",
+			"Wektory wykorzystujące plazmidy",
+			"Fuzja DNA z liposomami",
+			"Transfekcja precypitatu DNA z fosformanem wapnia"
+		]
+	},
+	{
+		"question": "Która z metod to metoda fizykochemiczna wprowadzania genów do komórek?",
+		"correct": [0],
+		"answers": [
+			"Mikroiniekcja dojądrowa",
+			"Wykorzystanie wektora plazmidowego",
+			"Wykorzystanie zmodyfikowanego wirusa DNA",
+			"Technika MLPA"
+		]
+	},
+	{
+		"question": "Czym jest biopsja trofoblastu?",
+		"correct": [0],
+		"answers": [
+			"Pobranie fragmentów kosmówki pod kontrolą USG",
+			"Pobranie krwi z żyły pępowinowej pod kontrolą USG",
+			"Nakłucie worka owodniowego przez powłoki brzuszne pod kontrolą USG",
+			"Jednym z nieinwazyjnych badań prenatalnych"
 		]
 	}
 ]
