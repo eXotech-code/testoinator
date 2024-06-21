@@ -90,9 +90,9 @@
 		]
 	},
 	{
-		"question": "Mutacje w których z wymienionych genów odpowiadają za występowanie rodzinnej polipowatości jelita grubego?",
-		"correct": [0, 1],
-		"answers": ["NF1", "NF2", "p53", "BRCA2"]
+		"question": "Mutacje w którym z wymienionych genów odpowiadają za występowanie rodzinnej polipowatości jelita grubego?",
+		"correct": [0],
+		"answers": ["APC", "NF2", "p53", "BRCA2"]
 	},
 	{
 		"question": "Które z poniższych stwierdzeń dotyczą nerwiakowłókniakowatości?",
@@ -100,7 +100,7 @@
 		"answers": [
 			"Występują 2 typy",
 			"Dziedziczna autosomalnie dominująco",
-			"Dziediczna autosomalnie recesywnie",
+			"Dziedziczna autosomalnie recesywnie",
 			"Wywoływana przez mutacje genu p53"
 		]
 	},
